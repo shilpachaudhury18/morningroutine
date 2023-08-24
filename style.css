@@ -360,6 +360,9 @@ ul {
   text-align: center;
   padding: 51px 3px;
 }
+.abc {
+  text-align: center;
+}
 
 .membership-card-section {
   padding: 70px;
@@ -369,10 +372,11 @@ ul {
   background-color: var(--yellow-lighter);
   width: 273px;
   padding: 28px;
-  height: 800px;
+  height: auto;
   border-radius: 20px;
   text-align: left;
   position: relative;
+  padding-bottom: 115px;
 }
 .member-card:hover {
   margin-top: -50px;
@@ -425,11 +429,10 @@ ul {
 .member-card button {
   background-color: #000;
   color: #fff;
-  padding: 21px 74px;
+  padding: 16px 59px;
   border-radius: 30px;
   border: none;
   bottom: 45px;
-  position: absolute;
   color: #fff;
   font-weight: 300;
 }
@@ -444,6 +447,13 @@ ul {
   background: var(--yellow-lighter);
   display: flex;
   flex-wrap: wrap;
+}
+.abc {
+  text-align: center;
+  position: absolute;
+  bottom: 34px;
+  width: 100%;
+  left: 0;
 }
 .footer-section {
   background-color: var(--black-medium);
@@ -643,9 +653,9 @@ footer .footer-center {
   .button-section {
     width: 69%;
   }
-  .padding-logo {
+  /* .padding-logo {
     display: none;
-  }
+  } */
   section .benefit-lists li {
     margin: 10px;
     font-size: 8px;
@@ -667,5 +677,33 @@ footer .footer-center {
   .li-section {
     width: 30%;
     font-size: 12px;
+  }
+  .padding-logo {
+    left: 0;
+    bottom: -86px;
+    top: auto;
+    transform: translateY(0);
+  }
+  .padding-logo span:first-child {
+    display: none;
+  }
+  .abc {
+    text-align: center;
+    position: absolute;
+    bottom: 34px;
+    width: 100%;
+    left: 0;
+  }
+  .member-card {
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 123px;
+  }
+  .member-card button {
+    position: relative;
+    bottom: 0;
+  }
+  .member-card {
+    height: auto;
   }
 }
