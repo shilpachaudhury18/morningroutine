@@ -394,7 +394,7 @@ ul {
   padding-left: 1.5em;
   position: relative;
 }
-.member-logo-sec ul li:after {
+.member-card ul li:after {
   content: "";
   height: 0.4em;
   width: 0.4em;
@@ -406,52 +406,19 @@ ul {
   left: 0;
 }
 
-.member-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 3px;
-  li {
-    margin: 0;
-    margin-bottom: 1em;
-    padding-left: 1.5em;
-    position: relative;
-
-    &:after {
-      content: "";
-      height: 0.4em;
-      width: 0.4em;
-      background: #000;
-      display: block;
-      position: absolute;
-      transform: rotate(45deg);
-      top: 0.25em;
-      left: 0;
-    }
-  }
+.member-card ul li:after:hover {
+  content: "";
+  height: 0.4em;
+  width: 0.4em;
+  background: #fff;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.4em;
+  left: 0;
 }
-.member-card ul:hover {
-  list-style: none;
-  padding: 0;
-  margin: 3px;
-  li {
-    margin: 0;
-    margin-bottom: 1em;
-    padding-left: 1.5em;
-    position: relative;
 
-    &:after {
-      content: "";
-      height: 0.4em;
-      width: 0.4em;
-      background: #fff;
-      display: block;
-      position: absolute;
-      transform: rotate(45deg);
-      top: 0.25em;
-      left: 0;
-    }
-  }
-}
+
 
 .member-card button {
   background-color: #000;
