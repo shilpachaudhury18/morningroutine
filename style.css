@@ -418,8 +418,6 @@ ul {
   left: 0;
 }
 
-
-
 .member-card button {
   background-color: #000;
   color: #fff;
@@ -566,6 +564,16 @@ footer .footer-center {
 
   .about-sec-reviewer {
     width: 100%;
+    text-align: center;
+  }
+  .benefits {
+    padding: 5px;
+  }
+  .benefits h1 {
+    font-size: 20px;
+  }
+  .membership-card-section {
+    padding: 24px;
   }
   .member-card {
     width: 100%;
@@ -589,12 +597,15 @@ footer .footer-center {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 20px;
+    padding: 13px 0px;
     color: var(--white);
     justify-content: space-between;
   }
   .footer-container p {
     width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 15px;
   }
   .footer-logo-section {
     width: 100%;
@@ -648,5 +659,9 @@ footer .footer-center {
   }
   .benefits div .details-section {
     max-height: 570px;
+  }
+  .li-section {
+    width: 30%;
+    font-size: 12px;
   }
 }
