@@ -490,6 +490,7 @@ footer .footer-center {
   display: flex;
   max-width: 1180px;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer-center p {
