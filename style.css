@@ -383,6 +383,28 @@ ul {
 .member-logo-sec span {
   margin: 15px 0px 0px 18px;
 }
+.member-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 3px;
+}
+.member-card ul li {
+  margin: 0;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+  position: relative;
+}
+.member-logo-sec ul li:after {
+  content: "";
+  height: 0.4em;
+  width: 0.4em;
+  background: #2d2c2b;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.4em;
+  left: 0;
+}
 
 .member-card ul {
   list-style: none;
