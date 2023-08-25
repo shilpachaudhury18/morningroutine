@@ -828,4 +828,10 @@ footer .footer-center {
     display: flex;
     flex-wrap: wrap;
   }
+  .footer-container p{
+    text-align: center;
+  }
+  .footer-container span{
+    text-align: center;
+  }
 }
