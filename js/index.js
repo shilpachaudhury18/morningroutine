@@ -13,7 +13,7 @@ if (links.length) {
 }
 
 // Timer
-let countDownDate = new Date("Aug 25, 2023 06:00:00").getTime();
+let countDownDate = new Date("Aug 29, 2023 06:00:00").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function () {
