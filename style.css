@@ -749,7 +749,7 @@ footer .footer-center {
     height: 400px;
   }
   .header-section ul {
-    margin: 11px 0px;
+    margin: 10px 0px;
   }
   .padding-logo {
     left: 0;
@@ -819,5 +819,13 @@ footer .footer-center {
 
   .benefit-details .info {
     width: 100%;
+  }
+  .footer-container p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
